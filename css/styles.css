@@ -45,3 +45,7 @@ body {
 p {
     padding-left: 10px;
 }
+
+::selection {
+    background-color: orchid;
+}
