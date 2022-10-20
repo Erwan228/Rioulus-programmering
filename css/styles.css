@@ -50,3 +50,16 @@ p {
     background-color: orchid;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cards {
+    display: flex;
+}
+
+div.gamePart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
