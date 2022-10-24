@@ -54,12 +54,23 @@ p {
     display: none;
 }
 
-.cards {
-    display: flex;
-}
-
 div.gamePart {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.vertikalLayout {
+    display: flex;
+    flex-direction: row;
+}
+
+.horisontalLayout {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridLayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

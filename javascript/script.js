@@ -139,3 +139,21 @@ function showLegs4(){
     `
 }
 
+function noLayout() {
+    document.getElementById('cards').classList = [];
+}
+
+function verLayout() {
+    document.getElementById('cards').classList = [];
+    document.getElementById('cards').classList.add('vertikalLayout');
+}
+
+function horLayout() {
+    document.getElementById('cards').classList = [];
+    document.getElementById('cards').classList.add('horisontalLayout');
+}
+
+function gridLayout() {
+    document.getElementById('cards').classList = [];
+    document.getElementById('cards').classList.add('gridLayout');
+}
