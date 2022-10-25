@@ -62,13 +62,13 @@ div.gamePart {
 
 .vertikalLayout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
 .horisontalLayout {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .gridLayout {
